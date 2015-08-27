@@ -1,6 +1,6 @@
 # Composer Docker Container
-FROM composer/composer:base
-MAINTAINER Rob Loach <robloach@gmail.com>
+FROM zalari/composer:base
+MAINTAINER Christian Ulbrich <christian.ulbrich@zalari.de>
 
 ENV COMPOSER_VERSION master
 

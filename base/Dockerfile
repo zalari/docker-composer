@@ -1,7 +1,7 @@
 # Composer Docker Container
-# Base Dockerfile: composer/base
+# Base Dockerfile: zalari/composer:base
 FROM php:5.6-cli
-MAINTAINER Rob Loach <robloach@gmail.com>
+MAINTAINER Christian Ulbrich <christian.ulbrich@zalari.de>
 
 # Packages
 RUN apt-get update && \
